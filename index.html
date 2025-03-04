@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushola Al-Maun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Mushola Al-Maun">
+            <h1>Mushola Al-Maun</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#kegiatan">Kegiatan Ramadhan</a></li>
+                <li><a href="#jadwal">Jadwal</a></li>
+                <li><a href="#takjil">Menu Takjil</a></li>
+                <li><a href="#buka-puasa">Buka Puasa</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beranda">
+        <h2>Selamat Datang di Mushola Al-Maun</h2>
+        <p>Mari bersama-sama meraih berkah Ramadhan dengan berbagai kegiatan yang bermanfaat.</p>
+    </section>
+
+    <section id="kegiatan">
+        <h2>Kegiatan Ramadhan</h2>
+        <div class="kegiatan-list">
+            <div class="kegiatan-item">
+                <i class="fas fa-microphone"></i>
+                <h3>Pengisi Acara Buka Puasa Bersama</h3>
+                <p>Ust. Sulthon Abdul Azis, Ust. H. Kurdi Dwinarto, dan lainnya.</p>
+            </div>
+            <div class="kegiatan-item">
+                <i class="fas fa-utensils"></i>
+                <h3>Buka Puasa Bersama</h3>
+                <p>Sesuai jadwal</p>
+            </div>
+            <div class="kegiatan-item">
+                <i class="fas fa-mosque"></i>
+                <h3>Sholat Tarawih</h3>
+                <p>Setiap malam</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="jadwal">
+        <h2>Jadwal</h2>
+        <div class="tab-buttons">
+            <button class="tab-button active" data-tab="sholat">Jadwal Sholat</button>
+            <button class="tab-button" data-tab="piket">Jadwal Piket</button>
+        </div>
+
+        <!-- Tab Content: Jadwal Sholat -->
+        <div id="sholat" class="tab-content active">
+            <h3>Jadwal Sholat Bulan Ramadhan (Maret)</h3>
+            <div class="jadwal-container">
+                <table class="jadwal-table">
+                    <thead>
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Subuh</th>
+                            <th>Dzuhur</th>
+                            <th>Ashar</th>
+                            <th>Maghrib</th>
+                            <th>Isya</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1 Maret</td>
+                            <td>04:30</td>
+                            <td>12:00</td>
+                            <td>15:30</td>
+                            <td>18:00</td>
+                            <td>19:30</td>
+                        </tr>
+                        <tr>
+                            <td>2 Maret</td>
+                            <td>04:31</td>
+                            <td>12:00</td>
+                            <td>15:31</td>
+                            <td>18:01</td>
+                            <td>19:31</td>
+                        </tr>
+                        <tr>
+                            <td>3 Maret</td>
+                            <td>04:32</td>
+                            <td>12:00</td>
+                            <td>15:32</td>
+                            <td>18:02</td>
+                            <td>19:32</td>
+                        </tr>
+                        <tr>
+                            <td>4 Maret</td>
+                            <td>04:33</td>
+                            <td>12:00</td>
+                            <td>15:33</td>
+                            <td>18:03</td>
+                            <td>19:33</td>
+                        </tr>
+                        <tr>
+                            <td>5 Maret</td>
+                            <td>04:34</td>
+                            <td>12:00</td>
+                            <td>15:34</td>
+                            <td>18:04</td>
+                            <td>19:34</td>
+                        </tr>
+                        <!-- Tambahkan baris lain sesuai kebutuhan -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Tab Content: Jadwal Piket -->
+        <div id="piket" class="tab-content">
+            <h3>Jadwal Piket</h3>
+            <div class="piket-list">
+                <div class="piket-item">
+                    <h4>Senin</h4>
+                    <p>Lana + Syafiq</p>
+                </div>
+                <div class="piket-item">
+                    <h4>Selasa</h4>
+                    <p>Daffa + Abi</p>
+                </div>
+                <div class="piket-item">
+                    <h4>Rabu</h4>
+                    <p>Fatih + Fahmi</p>
+                </div>
+                <div class="piket-item">
+                    <h4>Kamis</h4>
+                    <p>Abi + Fahri</p>
+                </div>
+                <div class="piket-item">
+                    <h4>Jum'at</h4>
+                    <p>Daffa + Fahri</p>
+                </div>
+                <div class="piket-item">
+                    <h4>Sabtu</h4>
+                    <p>Fatih + Syafiq</p>
+                </div>
+                <div class="piket-item">
+                    <h4>Ahad</h4>
+                    <p>Lana + Fahmi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="takjil">
+        <h2>Jadwal Menu Takjil Ramadhan</h2>
+        <div class="takjil-list">
+            <div class="takjil-item">
+                <h3>6 Maret</h3>
+                <p><strong>Soto Daging</strong></p>
+                <p class="deskripsi">Soto daging dengan kuah gurih dan rempah khas.</p>
+            </div>
+            <div class="takjil-item">
+                <h3>13 Maret</h3>
+                <p><strong>Sop Ayam</strong></p>
+                <p class="deskripsi">Sop ayam hangat dengan sayuran segar.</p>
+            </div>
+            <div class="takjil-item">
+                <h3>20 Maret</h3>
+                <p><strong>Lontong Sayur</strong></p>
+                <p class="deskripsi">Lontong dengan sayur labu siam dan santan.</p>
+            </div>
+            <div class="takjil-item">
+                <h3>27 Maret</h3>
+                <p><strong>Bakso Campur</strong></p>
+                <p class="deskripsi">Bakso campur dengan mie dan kuah kaldu sapi.</p>
+            </div>
+            <div class="takjil-item">
+                <h3>30 Maret</h3>
+                <p><strong>Nasi Kotak</strong></p>
+                <p class="deskripsi">Nasi kotak dengan lauk lengkap dan praktis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="buka-puasa">
+        <h2>Pengisi Acara Buka Puasa Bersama</h2>
+        <div class="acara-list">
+            <div class="acara-item">
+                <h3>6 Ramadhan</h3>
+                <p><strong>Ust. Sulthon Abdul Azis</strong></p>
+                <p>Majelis Tabligh PWM DIY</p>
+            </div>
+            <div class="acara-item">
+                <h3>13 Ramadhan</h3>
+                <p><strong>Ust. H. Kurdi Dwinarto</strong></p>
+                <p>Ketua PCM Kotagede</p>
+            </div>
+            <div class="acara-item">
+                <h3>20 Ramadhan</h3>
+                <p><strong>Ust. Agung Fajar Dwi N.</strong></p>
+                <p>Ketua PRM Jagalan Kotagede</p>
+            </div>
+            <div class="acara-item">
+                <h3>30 Ramadhan</h3>
+                <p><strong>Ust. Ari Abu Zahwan</strong></p>
+                <p>Dewan Syuro PPMI</p>
+            </div>
+        </div>
+        <p class="catatan">Setiap hari pukul 17.30 WIB di Mushola Al-Maun, Sanggrahan.</p>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Jika ada pertanyaan, silakan hubungi kami melalui:</p>
+        <ul>
+            <li><i class="fas fa-phone"></i> Telepon: <a href="tel:+6281234567890">+62 812 3456 7890</a></li>
+            <li><i class="fas fa-envelope"></i> Email: <a href="mailto:mushola.almaun@gmail.com">mushola.almaun@gmail.com</a></li>
+            <li><i class="fab fa-instagram"></i> Instagram: <a href="https://instagram.com/mushola_almaun" target="_blank">@mushola_almaun</a></li>
+            <li><i class="fab fa-tiktok"></i> TikTok: <a href="https://tiktok.com/@mushola_almaun" target="_blank">@mushola_almaun</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Sanggrahan No. 123, Kotagede, Yogyakarta</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mushola Al-Maun. Semua hak dilindungi.</p>
+        <div class="sosmed">
+            <a href="https://instagram.com/mushola_almaun" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@mushola_almaun" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
