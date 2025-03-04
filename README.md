@@ -1,2 +1,2 @@
-# https-mushola-al-maun.github.io
+# mushola-al-maun
 tentang mushola al maun sanggrahan
